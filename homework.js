@@ -92,10 +92,9 @@ If it's not, print "You might need an umbrella."
  */
 console.log("--- Exercise 6 ---");
 const isSunny = true;
-if (isSunny === true) {
+if (isSunny) {
     console.log("Don't forget your sunglasses!")
-}
-else {
+} else {
     console.log("You might need an umbrella.")
 }
 
@@ -132,7 +131,7 @@ Print the calculated BMI.
 console.log("--- Exercise 8 ---");
 const personWeight = 90;
 const personHeightInMeters = 1.80;
-const bodyMassIndex = personWeight / (personHeightInMeters* personHeightInMeters);
+const bodyMassIndex = personWeight / (personHeightInMeters * personHeightInMeters);
 console.log('bodyMassIndex', bodyMassIndex);
 
 /*
