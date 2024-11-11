@@ -10,7 +10,7 @@ const rectangleWidth = 10;
 const rectangleHeight = 11;
 
 const rectangleArea = rectangleWidth * rectangleHeight;
-console.log('rectangleArea:', rectangleArea);
+console.log("rectangleArea:", rectangleArea);
 
 /*
 Exercise 2.
@@ -43,11 +43,11 @@ const englishGrade = 4;
 
 const gradeAverage = (physicsGrade * mathGrade + englishGrade) / 3;
 if (gradeAverage >= 4 && gradeAverage <= 6) {
-    console.log('Good job!')
+    console.log("Good job!")
 } else if (gradeAverage < 4 && gradeAverage >= 1) {
-    console.log('Try harder!')
+    console.log("Try harder!")
 } else {
-    console.log('Wrong grades!')
+    console.log("Wrong grades!")
 }
 
 /*
@@ -81,7 +81,7 @@ if (isPayingVAT) {
 
 taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
-console.log('tax to pay: ' + taxToPay);
+console.log("tax to pay: " + taxToPay);
 
 /*
 Exercise 6.
@@ -128,7 +128,7 @@ console.log("--- Exercise 8 ---");
 const personWeight = 90;
 const personHeightInMeters = 1.80;
 const bodyMassIndex = personWeight / (personHeightInMeters * personHeightInMeters);
-console.log('bodyMassIndex', bodyMassIndex);
+console.log("bodyMassIndex", bodyMassIndex);
 
 /*
 Exercise 9.
@@ -232,13 +232,13 @@ Use MDN to find out how to use the PI number in JS.
 console.log("--- Exercise 13 ---");
 const radius = 0;
 const circleArea = Math.PI * (radius * radius);
-console.log('circleArea:', circleArea);
+console.log("circleArea:", circleArea);
 
 /*
 Exercise 14.
 Create a variable studentScore  and assign a number representing a student's score (0-100).
 Use an if-else statement to determine the grade (A, B, C, D, F) based on the score and print the grade.
-For instance, a score greater than or equal to 90 could be an 'A', 80-89 could be a 'B', and so on.
+For instance, a score greater than or equal to 90 could be an "A", 80-89 could be a "B", and so on.
  */
 console.log("--- Exercise 14 ---");
 const studentScore = 1;
@@ -246,17 +246,17 @@ let studentGrade;
 if (studentScore < 0 || studentScore > 100) {
     console.log("Wrong student score. Provide value from range 0-100");
 } else if (studentScore < 30) {
-    studentGrade = 'F';
+    studentGrade = "F";
 } else if (studentScore < 45) {
-    studentGrade = 'E';
+    studentGrade = "E";
 } else if (studentScore < 60) {
-    studentGrade = 'D';
+    studentGrade = "D";
 } else if (studentScore < 75) {
-    studentGrade = 'C';
+    studentGrade = "C";
 } else if (studentScore < 90) {
-    studentGrade = 'B';
+    studentGrade = "B";
 } else if (studentScore > 90) {
-    studentGrade = 'A';
+    studentGrade = "A";
 }
 console.log("Student grade: ", studentGrade);
 
