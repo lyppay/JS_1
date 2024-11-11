@@ -108,17 +108,13 @@ console.log("--- Exercise 7 ---");
 const currentMonth = 13;
 if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2) {
     console.log("It's winter");
-}
-else if (currentMonth >=3 && currentMonth <= 5) {
+} else if (currentMonth >=3 && currentMonth <= 5) {
     console.log("It's spring");
-}
-else if (currentMonth >=6 && currentMonth <= 8) {
+} else if (currentMonth >=6 && currentMonth <= 8) {
     console.log("It's summer");
-}
-else if (currentMonth >=9 && currentMonth <= 11) {
+} else if (currentMonth >=9 && currentMonth <= 11) {
     console.log("It's autumn");
-}
-else {
+} else {
     console.log("Provided month is wrong. Try 1-12");
 }
 
@@ -161,12 +157,12 @@ Use an if statement to print a message based on the current color
 (e.g., "Stop" for red, "Speed up" for yellow, "Go" for green).
  */
 console.log("--- Exercise 10 ---");
-const currentColor = 'black';
-if (currentColor === 'green'){
+const currentColor = "black";
+if (currentColor === "green"){
     console.log("Go")
-} else if (currentColor === 'yellow') {
+} else if (currentColor === "yellow") {
     console.log("Speed up")
-} else if (currentColor === 'red') {
+} else if (currentColor === "red") {
     console.log("Stop")
 }
 else {
@@ -217,18 +213,14 @@ Print "Divisible by 3 and 5" if the variable is divisible both by 3 and by 5.
  */
 console.log("--- Exercise 12 ---");
 const numberToDivide = 1;
-if (numberToDivide !== 0) {
-    if (numberToDivide % 3 === 0 && numberToDivide % 5 === 0) {
-        console.log("Divisible by 3 and 5")
-    } else if (numberToDivide % 5 === 0 && numberToDivide % 3 !== 0) {
-        console.log("Divisible by 5")
-    } else if (numberToDivide % 3 === 0 && numberToDivide % 5 !== 0) {
-        console.log("Divisible by 3")
-    } else {
-        console.log("Not divisible by 3 or 5")
-    }
+if (numberToDivide % 3 === 0 && numberToDivide % 5 === 0) {
+    console.log("Divisible by 3 and 5")
+} else if (numberToDivide % 5 === 0 && numberToDivide % 3 !== 0) {
+    console.log("Divisible by 5")
+} else if (numberToDivide % 3 === 0 && numberToDivide % 5 !== 0) {
+    console.log("Divisible by 3")
 } else {
-    console.log("You cannot divide by 0")
+    console.log("Not divisible by 3 or 5")
 }
 
 /*
@@ -316,8 +308,7 @@ let isAnAdult, canDriveLegally, drivingLegalCheckInformation, ageVerificationInf
 if (ageOfPerson >= 18) {
     isAnAdult = true;
     ageVerificationInformation = "OK - an adult &"
-}
-else if (ageOfPerson < 18) {
+} else if (ageOfPerson < 18) {
     isAnAdult = false;
     ageVerificationInformation = "ILLEGAL - not adult &"
 }
